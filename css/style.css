@@ -1,4 +1,4 @@
-
+/*comienzo header*/
 header{
 	padding: 15px 0;
 	margin: 0;
@@ -53,6 +53,9 @@ h2{
 h2 a{
 	text-decoration: none;
 }
+/*fin header*/
+
+/*comienzo sección con fotos grandes*/
 
 .container-fotosGrandes{
 	height: 400px;
@@ -71,7 +74,6 @@ h2 a{
 	text-align: center;
 }
 
-
 .link-fotosGrandes{
 	text-decoration: none;
 	text-align: center;
@@ -80,6 +82,10 @@ h2 a{
 	font-weight: bold;
 
 }
+
+/*fin seccion con fotos grandes*/
+
+/*comienzo seccion con fotos pequeñas*/
 
 .container-fotosChicas{
 	margin-bottom: 30px;
@@ -101,18 +107,39 @@ h2 a{
 	font-family: Arial;
 }
 
+/*fin seccion fotos pequeñas*/
+
+/*comienzo seccion col-3*/
+
+
 .suscribe{
 	font-family: Arial;
+	display: inline-block;
+	border: transparent solid 1px;
 }
 .iconos{
 	width: 15px;
 	height: 15px;
-	display: inline-block;
+	display: block;
 }
 
 .link-iconos{
 	display:block;
+	vertical-align: middle;
+	text-decoration: none;
+	font-family: Arial;
 }
+
+.apps{
+	font-family: Arial;
+}
+
+.sponsor{
+	font-family: Arial;
+}
+/*fin seccion col-3*/
+
+/*comienzo footer*/
 
 .container-footer{
 	background-color: #494949;
@@ -151,3 +178,5 @@ ul li{
 	color: #909090;
 	text-align: center;
 }
+
+/*fin footer*/
